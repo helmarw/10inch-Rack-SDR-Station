@@ -46,6 +46,6 @@ As for the brackets/modules i designed a few new ones:
 + Module 1x SDR 2x RTL 1x HackRF
 + Module 1x Keystron with passthrough, Keystron at the bottom
 + Keyboard handle
-+ magnetically fixed Drawer for storage including lid so nothing falls out in transport
++ Magnetically fixed drawer for storage including drawer cover so nothing falls out in transport
 + Mounting Brackets for Monitor
 
