@@ -67,3 +67,8 @@ with opened Keyboard
 
 
 [![Watch the video](https://img.youtube.com/vi/UXNUg346Mb8/maxresdefault.jpg)](https://youtu.be/UXNUg346Mb8)
+
+
+Monitor Bracket
+
+![Alt text](photos/IMG_1471.jpg)
