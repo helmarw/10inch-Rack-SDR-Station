@@ -1,21 +1,24 @@
 # 10inch-Rack-SDR-Station
 10inch 4U Reck SDR Station with built in nanoVNA, Red Pitaya, 2x RTL-SDR and an HackRF
 
-inspired from Jeff Geerlings mini-rack (https://github.com/geerlingguy/mini-rack and https://mini-rack.jeffgeerling.com) 
-i set out to develop one of my own. I had a lot of parts lying around including, two Rasperry Pi's, a spare nanoVNA, 
-a Red Pitaya, two RTL-SDR and an HackRF and some other parts...
-The goal was to create a self contained SDR-Station, which i can take wherever i need it without the nessesaty 
-for extrenal devices like monitor or keybord/mouse etc. Everything is mounted on the small 4U DeskPi RackMate T0
-Onyl connection needed is Power and maybe a network cable it you need internet.
-The heart will be a Raspberry Pi5 and an other Raspberry Pi4, On the Pi im running RasbianOS form an NVMe drive 
-and on the Pi4 im using dragonOS. For remote conneciton the Pi4 is connetetd to a JetKVM and for the PI4 im using 
-simply Raspberry Pi Connect. Apart from that of course you can still use VNC or ssh into the machines.
+Inspired by Jeff Geerling’s mini-rack (https://github.com/geerlingguy/mini-rack and https://mini-rack.jeffgeerling.com),
+I set out to develop one of my own. I had a lot of parts lying around, including two Raspberry Pis, a spare nanoVNA,
+a Red Pitaya, two RTL-SDRs, a HackRF, and some other components.
 
-As for the Brackets i used JaredC01's LabStack (https://github.com/JaredC01/LabStack) as a starting point and made a few 
-Modules my self in Fusion 360
+The goal was to create a self-contained SDR station that I could take wherever I needed without the necessity
+of external devices like a monitor, keyboard, or mouse. Everything is mounted in the small 4U DeskPi RackMate T0.
+The only connections needed are power and, optionally, a network cable if internet access is required.
 
+The core of the setup is a Raspberry Pi 5 alongside a Raspberry Pi 4. The Pi 5 runs Raspberry Pi OS from an NVMe drive,
+while the Pi 4 runs DragonOS. For remote access, the Pi 4 is connected to a JetKVM, and for the Pi 5, I use
+Raspberry Pi Connect. Additionally, you can still use VNC or SSH to access the machines.
 
-List of parts included in theis build: (links are for referncece only, not affiliated or anything)
+For the brackets, I used JaredC01’s LabStack (https://github.com/JaredC01/LabStack) as a starting point and
+designed a few custom modules myself in Fusion 360.
+
+![Alt text](photos/IMG_1461.jpg)
+
+List of parts included in tis build: (links are for referncece only, not affiliated or anything)
 
 + 1x Raspberry Pi4
 + 1x Power Over Ethernet PoE HAT für Raspberry Pi 4 B (https://www.amazon.de/dp/B0928ZD7QQ)
@@ -33,11 +36,12 @@ List of parts included in theis build: (links are for referncece only, not affil
 + 2x GeeekPi 10 Zoll 0,5U Brush Cable Manager (https://www.amazon.de/dp/B0DSJFX6XV)
 + 1 pair of 20mm Drawer slides (https://www.amazon.de/dp/B0DPGZPTPP)
 + 10x deleyCO 0,5m flat CAT7 network cable (https://www.amazon.de/dp/B08SMHN5YN)
-+ 2x RJ45 Keystone Koppler Module (https://www.amazon.de/dp/B0CH31YP7P)
++ 2x RJ45 Keystone Coppler Module (https://www.amazon.de/dp/B0CH31YP7P)
 + 1x Micro HDMI to HDMI Stecker FPC-Flatcable 1080P 90 Grad up 0.5m (https://www.amazon.de/dp/B0CDRYSD29)
 + 1x Micro HDMI to mini HDMI Stecker FPC-Flatcable 1080P 90 Grad down 0.2m (https://www.amazon.de/dp/B01LZN83ID)
 + 1x USB 2.0 Typ-A to Micro-USB 0.2m (https://www.amazon.de/dp/B0967TZFT1)
 + couple of other USB cables as needed, between 0.3 and 0.5m
++ lots of cable ties to keep everyting in place an neat
 
 As for the brackets/modules i designed a few new ones:
 
@@ -49,3 +53,17 @@ As for the brackets/modules i designed a few new ones:
 + Magnetically fixed drawer for storage including drawer cover so nothing falls out in transport
 + Mounting Brackets for Monitor
 
+here a shot from the inside
+
+![Alt text](photos/IMG_1460.jpg)
+
+and from the back
+
+![Alt text](photos/IMG_1469.jpg)
+
+with opened Keyboard
+
+![Alt text](photos/IMG_1462.jpg)
+
+
+[![Watch the video](https://img.youtube.com/vi/UXNUg346Mb8/maxresdefault.jpg)](https://youtu.be/UXNUg346Mb8)
