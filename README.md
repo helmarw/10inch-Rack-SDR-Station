@@ -14,7 +14,8 @@ while the Pi 4 runs DragonOS. For remote access, the Pi 4 is connected to a JetK
 Raspberry Pi Connect. Additionally, you can still use VNC or SSH to access the machines.
 
 For the brackets, I used JaredC01’s LabStack (https://github.com/JaredC01/LabStack) as a starting point and
-designed a few custom modules myself in Fusion 360.
+designed a few custom modules myself in Fusion 360. I printed the parts in SLS on my Formlabs FUSE1 but they
+also should be printable in FDM or SLA as well.
 
 ![Alt text](photos/IMG_1461.jpg)
 
